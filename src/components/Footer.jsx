@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { Flex } from "@chakra-ui/react";
-import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
     const instagram = () => {
@@ -49,11 +45,9 @@ const Footer = () => {
         <div className="footer_contact">
             <h2>Contactános</h2>
             <Flex alingItems="center" gap={2}>
-                <FontAwesomeIcon icon={faWhatsapp} fontSize={22} />
                 <h4>2625571030</h4>
             </Flex>
             <Flex alingItems="center" gap={2}>
-                <FontAwesomeIcon icon={faEnvelope} fontSize={22} />
                     <button
                         onClick={() => (window.location = "mailto:analaura.sampirisi@gmail.com")}
                     >
@@ -62,7 +56,6 @@ const Footer = () => {
             </Flex>
             <Link target="_blank" to={"https://goo.gl/maps/kjMzH9j4pm9SXN6d9"}>
                 <Flex alignItems="center" gap={2}>
-                    <FontAwesomeIcon icon={faLocationDot} fontSize={22} />
                     <h4>Av. San Martín 378, General Alvear, Mendoza</h4>
                 </Flex>
             </Link>
@@ -71,10 +64,8 @@ const Footer = () => {
             <h2>Sigamos conectados</h2>
             <div className="networks">
                 <Link target="_blank" to={"https://www.instagram.com"}>
-                    <i><FontAwesomeIcon icon={faInstagram}/></i>
                 </Link>
                 <Link target="_blank" to={"https://www.twitter.com"}>
-                    <i><FontAwesomeIcon icon={faTwitter}/></i>
                 </Link>
             </div>
         </div>

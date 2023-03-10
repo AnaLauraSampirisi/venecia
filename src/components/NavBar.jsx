@@ -15,7 +15,6 @@ import vestidoAmberi from "https://d3ugyf2ht6aenh.cloudfront.net/stores/128/259/
 import vestidoAmberiBlack from "https://d3ugyf2ht6aenh.cloudfront.net/stores/128/259/products/bcp_03261-aab3188601ab4b6e2b15426833880370-1024-1024.jpg";
 import vestidoNatie from "https://d3ugyf2ht6aenh.cloudfront.net/stores/128/259/products/img_21211-1941ca42ecdeca37fd15139088075633-1024-1024.jpg";
 import carteraTote from "https://http2.mlstatic.com/D_NQ_NP_764638-MLA53560811851_022023-W.webp";
-import zapatillaIcon from "https://http2.mlstatic.com/D_NQ_NP_777538-MLA53601265015_022023-W.webp";
 import logo from "../assets/image.jpg";
 import CartWidget from "./CartWidget";
 import { Link } from "react-router-dom";
@@ -27,7 +26,7 @@ const NavBar = () => {
                 <Flex maxW="150rem" alignItems="center" gap="2" pt="1">
                     <Link to={"/"}>
                         <Box display="flex" ml="20">
-                            <img id="logo_mario" src={logo} />
+                            <img id="logo_tiffanys" src={logo} />
                         </Box>
                     </Link>
                     <Spacer />

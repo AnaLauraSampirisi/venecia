@@ -12,7 +12,6 @@ import {
     Button,
 } from "@chakra-ui/react";
 
-import { useRef, useEffect } from "react";
 import Swal from 'sweetalert2'
 
 const FormCart = () => {
