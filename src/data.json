@@ -1,0 +1,7 @@
+[
+    {"id": 1, "name": "Vestido Amberi", "description": "Vestido largo con espalda descubierta color Beige", "description_short": "Vestido largo con espalda descubierta color Beige", "price":120000, "stock": 5, "category": "VestidosLargos", "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/128/259/products/20190503_2055291-59034942f16ff2fe4115569278787156-1024-1024.jpg"},
+    {"id": 2, "name": "Vestido Amberi Black", "description": "Vestido con espalda descubierta color negro", "description_short": "Vestido largo con espalda descubierta, color negro", "price":190000, "stock": 2, "category": "Ps5", "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/128/259/products/bcp_03261-aab3188601ab4b6e2b15426833880370-1024-1024.jpg"},
+    {"id": 3, "name": "Vestido Natie", "description": "Vestido corto con brillos", "description_short": "Vestido corto con brillos", "price":160000, "stock": 2, "category": "VestidosCortos", "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/128/259/products/bcp_03261-aab3188601ab4b6e2b15426833880370-1024-1024.jpg"},
+    {"id": 4, "name": "Cartera Tote Shopper XL", "description": "Cartera tamaño grande color negro", "description_short": "Cartera Tote tamaño grande color negro","price":50000, "stock": 2, "category": "Carteras", "image": "https://http2.mlstatic.com/D_NQ_NP_764638-MLA53560811851_022023-W.webp"},
+    {"id": 5, "name": "Zapatillas Icon", "idCalzado": "4", "category":"Calzado", "price":70000, "image": "https://http2.mlstatic.com/D_NQ_NP_777538-MLA53601265015_022023-W.webp"}
+]
